@@ -1,0 +1,50 @@
+.news-thumbnail{
+    width : 300px;
+    margin : 20px;
+}
+
+.news-image{
+    height : 250px;
+    /* width : 200px; */
+}
+
+.news-card{
+    margin-top: 10px;
+    margin-right: 10px;
+    width : 350px;
+    height : 80vh
+}
+.news-overview{
+    /* padding : 0; */
+    height: 50px;
+    width : 360px;
+    overflow-x: hidden;
+    /* overflow-y: auto; */
+    justify-content: newspaper;
+}
+
+.news-title{
+    width : 300px; 
+    height : 100px;
+    overflow-x: hidden;
+}
+
+.news-overview::-webkit-scrollbar{
+    width:2px;
+    background: gray;
+}
+
+/* .news-actions{
+    text-align: right;
+} */
+
+a{
+    font-size: 16px;
+    text-decoration: none;
+    float : left;
+}
+
+#add-button, #delete-button
+{
+    float : right;
+}

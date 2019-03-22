@@ -1,0 +1,8 @@
+<mat-toolbar color="primary">
+  <b><span>BREAKING NEWS</span></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <button mat-raised-button id="myFavourites" *ngIf="router.url != '/login' && router.url != '/register'" [routerLink]="['/news/popular']"><mat-icon>assignment</mat-icon>&nbsp;Top Headlines</button>&nbsp;&nbsp;
+  <button mat-raised-button *ngIf="router.url != '/login' && router.url != '/register'" [routerLink]="['/news/favourites']"><mat-icon>favorite</mat-icon>&nbsp;My Favourites</button>&nbsp;&nbsp;
+  <button mat-raised-button id="search" *ngIf="router.url != '/login' && router.url != '/register'" class="search-button" [routerLink]="['/news/search']"><mat-icon>search</mat-icon>Search News</button>&nbsp;&nbsp;&nbsp;
+  <button mat-raised-button color="warn" id="logout" *ngIf="router.url != '/login' && router.url != '/register'" (click)="logout()"><mat-icon>logout</mat-icon>&nbsp;Logout</button>
+</mat-toolbar>
+<router-outlet></router-outlet>

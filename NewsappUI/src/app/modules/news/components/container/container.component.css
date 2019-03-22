@@ -1,0 +1,18 @@
+/* :host{
+    height : 100vh;
+} */
+
+.news-container
+{
+    margin : auto;
+    width : 90vw;
+    display : flex;
+    flex-wrap : wrap;
+    height : 100vh;
+    overflow-x:auto;
+}
+
+.news-container::-webkit-scrollbar{
+    width:2px;
+    background: white;
+}

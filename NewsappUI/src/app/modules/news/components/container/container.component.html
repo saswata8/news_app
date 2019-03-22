@@ -1,0 +1,3 @@
+<div class="news-container">
+  <app-news-card *ngFor="let news of newsList" [news]="news" [useFavouriteNewsApi]="useFavouriteNewsApi" (addNews)="addToFavouriteNews($event)" (deleteNews)="deleteFromFavouriteList($event)"></app-news-card>
+</div>

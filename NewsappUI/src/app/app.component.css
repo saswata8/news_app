@@ -1,0 +1,13 @@
+
+@media (min-width: 0px) and (max-width: 767px) {
+    #logout
+{
+    margin-right: 10px;
+}
+  }
+  @media (min-width: 767px) and (max-width: 1500px) {
+    #logout
+{
+    margin-right: 570px;
+}
+  }
